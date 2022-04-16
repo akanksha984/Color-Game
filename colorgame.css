@@ -1,0 +1,68 @@
+body{
+    /* background-color: rgb(24, 24, 24); */
+    margin: 0;
+    background-image: url('http://wonderfulengineering.com/wp-content/uploads/2016/02/glitter-wallpaper-11.jpg');
+    background-size: "cover";
+}
+.square{
+    width: 30%;
+    background:rgb(119, 172, 199);
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+#container{
+    margin: 45px auto;
+    max-width: 600px;
+}
+h1{
+    color: rgb(219, 229, 237);
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 20px 0;
+}
+#stripe{
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    color: black;
+}
+.selected{
+    color: white;
+    background-color: steelblue;
+}
+#colorDisplay{
+    font-size: 200%;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    outline: none;
+}
+#message{
+    display: inline-block;
+    width: 40%;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
